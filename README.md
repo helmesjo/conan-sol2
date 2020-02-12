@@ -1,6 +1,6 @@
 [![Download](https://api.bintray.com/packages/helmesjo/public-conan/sol2%3Ahelmesjo/images/download.svg) ](https://bintray.com/helmesjo/public-conan/sol2%3Ahelmesjo/_latestVersion)
-[![Build Status Travis](https://travis-ci.org/helmesjo/conan-sol2.svg?branch=stable%2F3.0.3)](https://travis-ci.com/helmesjo/conan-sol2)
-[![Build Status AppVeyor](https://ci.appveyor.com/api/projects/status/github/helmesjo/conan-sol2?branch=stable%2F3.0.3&svg=true)](https://ci.appveyor.com/project/helmesjo/conan-sol2)
+[![Build Status Travis](https://travis-ci.org/helmesjo/conan-sol2.svg?branch=stable%2F3.2.0)](https://travis-ci.com/helmesjo/conan-sol2)
+[![Build Status AppVeyor](https://ci.appveyor.com/api/projects/status/github/helmesjo/conan-sol2?branch=stable%2F3.2.0&svg=true)](https://ci.appveyor.com/project/helmesjo/conan-sol2)
 
 ## Conan package recipe for [*sol2*](https://github.com/ThePhD/sol2)
 
@@ -20,14 +20,14 @@ If you wish to report an issue or make a request for a package, please do so her
 
 ### Basic setup
 
-    $ conan install sol2/3.0.3@helmesjo/stable
+    $ conan install sol2/3.2.0@helmesjo/stable
 
 ### Project setup
 
 If you handle multiple dependencies in your project is better to add a *conanfile.txt*
 
     [requires]
-    sol2/3.0.3@helmesjo/stable
+    sol2/3.2.0@helmesjo/stable
 
     [generators]
     txt
@@ -58,4 +58,4 @@ The following command both runs all the steps of the conan file, and publishes t
 NOTE: The conan recipe license applies only to the files of this recipe, which can be used to build and package sol2.
 It does *not* in any way apply or is related to the actual software being packaged.
 
-[MIT](https://github.com/helmesjo/conan-sol2/blob/stable/3.0.3/LICENSE.md)
+[MIT](https://github.com/helmesjo/conan-sol2/blob/stable/3.2.0/LICENSE.md)

@@ -7,6 +7,15 @@ int main() {
     int x = 0;
     lua.set_function("beep", [&x]{ ++x; });
     lua.script("beep()");
-    assert(x == 1);
-    std::cout << "Passed\n";
+    
+    if(x == 1)
+    {
+        std::cout << "Passed\n";
+        return 0;
+    }
+    else
+    {
+        std::cout << "Failed\n";
+        return 1;
+    }
 }
